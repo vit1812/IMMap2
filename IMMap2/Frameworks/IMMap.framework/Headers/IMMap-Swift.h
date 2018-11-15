@@ -212,6 +212,7 @@ SWIFT_CLASS("_TtC5IMMap17MapViewController")
 @interface MapViewController : UIViewController
 @property (nonatomic, strong) id <MapViewControllerDelegate> _Nullable delegate;
 + (MapViewController * _Nullable)mapViewController SWIFT_WARN_UNUSED_RESULT;
++ (MapViewController * _Nullable)mapViewControllerWithAirportCode:(NSString * _Nonnull)code SWIFT_WARN_UNUSED_RESULT;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillAppear:(BOOL)animated;
